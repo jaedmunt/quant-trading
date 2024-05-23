@@ -316,10 +316,10 @@ def portfolio(data):
 def main():
     
     #the sample i am using are NVDA and AMD from 2013 to 2014
-    stdate='2010-01-01'
-    eddate='2024-12-31'
-    ticker1='KGC'
-    ticker2='ABX'
+    stdate='2014-05-30'
+    eddate='2024-05-30'
+    ticker1='WKL.AS'
+    ticker2='PGR'
 
     #extract data
     asset1=yf.download(ticker1,start=stdate,end=eddate)
